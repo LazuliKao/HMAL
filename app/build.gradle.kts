@@ -16,9 +16,13 @@ plugins {
 
 if (officialBuild) {
 }
-
+val appPackageName: String by rootProject.extra
 android {
     namespace = "com.google.android.hmal"
+
+    defaultConfig {
+        applicationId = appPackageName
+    }
 
     buildFeatures {
         buildConfig = true

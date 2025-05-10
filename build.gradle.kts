@@ -30,6 +30,7 @@ val appVerName by extra("4.2.0")
 val configVerCode by extra(90)
 val serviceVerCode by extra(97)
 val minBackupVerCode by extra(65)
+val appPackageName by extra("link.lk233.hma")
 
 val androidSourceCompatibility = JavaVersion.VERSION_21
 val androidTargetCompatibility = JavaVersion.VERSION_21
