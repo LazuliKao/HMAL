@@ -14,6 +14,7 @@ plugins {
     alias(libs.plugins.nav.safeargs.kotlin)
 }
 
+val appPackageName: String by rootProject.extra
 android {
     namespace = "com.google.android.hmal"
 
